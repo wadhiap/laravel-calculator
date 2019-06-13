@@ -2,14 +2,14 @@
 
 This is a calculator built in Laravel.
 
-Interesting files:
-/resources/views/calculator.blade.php
-/app/Http/Controllers/calc*
-/routes/web.php
-/tests/unit/CalculatorTest.php
+Interesting files:<br />
+/resources/views/calculator.blade.php<br />
+/app/Http/Controllers/calc*<br />
+/routes/web.php<br />
+/tests/unit/CalculatorTest.php<br />
 
 ## Install
 
-Copy .env.example file to .env
-Run composer install
-Run php artisan key:generate
+Copy .env.example file to .env<br />
+Run composer install<br />
+Run php artisan key:generate<br />
