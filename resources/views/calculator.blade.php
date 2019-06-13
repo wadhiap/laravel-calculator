@@ -36,7 +36,7 @@
                 <option value="subtract" {{ ( old('operator', session('operator')) == 'subtract') ? 'selected' : '' }}>Subtract</option>
                 <option value="divide" {{ ( old('operator', session('operator')) == 'divide') ? 'selected' : '' }}>Divide</option>
             </select>          
-            <span>Value 2</span>
+            <span>Value 2:</span>
             <input type="text" name="val2" size="10" value="{{ old('val2', session('val2')) }}" />       
             <input type="submit" name="go" value="Calculate" />  
         </form>
